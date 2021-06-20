@@ -1,0 +1,48 @@
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+    /* PC: >=1024px
+    Tablet: >=740px & <1024px
+    Mobile: <740px */
+
+@media only screen and (max-width: 740px){
+    .menu ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    .menu ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .menu ul li a {
+        color: #fff;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info p {
+        display: none;
+    }
+
+}
